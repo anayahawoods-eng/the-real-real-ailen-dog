@@ -1,0 +1,44 @@
+function setup() {
+  createCanvas(650, 650);
+}
+
+function draw() {
+  background (27,29,33);
+// moon 
+  fill(95,102,120)
+  ellipse(400,700,900,700);
+
+  // dog body
+  fill(66,135,14)
+  ellipse(350,400,150,215)
+  
+  //dog head 
+  fill (66,195,18)
+ triangle(280, 260, 410, 260, 345, 420);
+  
+ // dog nose 
+ fill (60,60,60)
+  circle (345,414,15)
+  
+  //dog leg right and paw 
+  rect(375,385,27,150)
+ fill (66,135,14)
+  circle (387,525,35);
+ 
+  //dog leg left and paw
+  fill (50,50,50)
+ rect (300,385,27,150)
+  fill(66,135,14)
+ circle(315,525,35)
+
+  //dog eye
+  fill (253,259,250)
+  ellipse (346,325,52)
+  
+  //dog eye
+  fill(22,22,22)
+  ellipse (346,325,35)
+  
+  //dog anneai
+  
+}
